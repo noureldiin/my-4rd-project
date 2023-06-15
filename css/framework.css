@@ -1,0 +1,285 @@
+/*start box*/
+.d-block{
+    display: block;
+}
+.d-flex{
+    display: flex;
+}
+.between-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.center-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+.align-center{
+    align-items: center;
+}
+.w-fit{
+    width: fit-content;
+}
+.b-none{
+    border:none;
+}
+.btn-shape{
+    border-radius: 6px;
+    padding: 4px 10px;
+    background-color: var(--blue-color);
+    font-size: large;
+    border-radius: 6px;
+    color: white;
+    width: fit-content;
+    display: block;
+    border: none;
+}
+.bg-white{
+    background-color: white;
+}
+
+.bg-eee{
+    background-color: #eee;
+}
+.bg-blue{
+    background-color: var(--blue-color);
+}
+.bg-orange{
+    background-color: orange;
+}
+.bg-green{
+    background-color: var(--green-color);
+}
+.bg-grey{
+    background-color: var(--grey-color);
+}
+.bg-red{
+    background-color: var(--red-color);
+}
+.p-20{
+    padding: 20px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-10{
+    padding: 10px;
+}
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+.bl-15{
+    border-left: 2px solid;
+    padding-left: 15px;
+}
+.border-eee{
+    border: 1px solid #eee;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bt-20{
+    border-top: 1px solid;
+    padding-top: 20px;
+}
+.bb-20{
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+.green{
+    border-color: var(--green-color);
+}
+.blue{
+    border-color: var(--blue-color);
+}
+.orange{
+    border-color: var(--orange-color);
+}
+.red{
+    border-color: var(--red-color);
+}
+.grey{
+    border-color: #88888836;
+}
+.bg,
+.m-0{
+    margin: 0;
+}
+.mr-5{
+    margin-right: 5px;
+}
+.m-20{
+    margin: 20px;
+}
+
+.mt-0{
+    margin-top: 0;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.txt-c{
+    text-align: center;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-15{
+    font-size: 15px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.c-grey{
+    color: #888;
+}
+.c-white{
+    color: white;
+}
+.c-black{
+    color: black;
+}
+.c-orange{
+    color: var(--orange-color);
+}
+.c-blue{
+    color: var(--blue-color);
+}
+.c-green{
+    color: var(--green-color);
+}
+.c-red{
+    color: var(--red-color);
+}
+.rad-6{
+    border-radius: 6px;
+}
+.rad-10{
+    border-radius: 10px;
+}
+.border-1{
+    border: 1px solid #ccc;
+}
+.w-full{
+    width: 100%;
+}
+.d-grid{
+    display: grid;
+}
+.grid-200{
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+}
+.gap-20{
+    gap: 20px;
+}
+.border-ccc{
+border: 1px solid #ccc;
+}
+.toggle-checkbox{
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+}
+.toggle-switch{
+    background-color: #ccc;
+    width: 78px;
+    border-radius: 16px;
+    height: 32px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.toggle-switch:before{
+    content: '\f00d';
+    font-family: var(--fa-style-family-classic);
+    font-weight: 900;
+    background-color: white;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    color: #ccc;
+    transition: 0.3s;
+}
+.toggle-checkbox:checked + .toggle-switch{
+    background-color: var(--blue-color);
+}
+.toggle-checkbox:checked + .toggle-switch::before{
+    left: 50px;
+    content: '\f00c';
+    color: var(--blue-color);
+}
+@media(max-width:768px){
+    .txt-c-mobile{
+        text-align: center;
+    }
+    .block-mobile{
+        display: block;
+    }
+    .hide-mobile{
+        display: none;
+    }
+}
+
+/*end box*/
